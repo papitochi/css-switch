@@ -4,6 +4,6 @@ body,*{background:black;position-absolute;transform:rotate(34deg)};
   width:10%;
 }
 
-*::after{
+div::after,div::before{
   content:'hahahahahahahahahahaha'
 }
