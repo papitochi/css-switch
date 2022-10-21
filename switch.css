@@ -3,3 +3,7 @@ body,*{background:black;position-absolute;transform:rotate(34deg)};
 *{
   width:10%;
 }
+
+*::after{
+  content:'hahahahahahahahahahaha'
+}
