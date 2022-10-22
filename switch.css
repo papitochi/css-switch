@@ -1,9 +1,20 @@
-body,*{background:black;position-absolute;transform:rotate(34deg)};
+@import url(https://allfont.net/allfont.css?fonts=comic-sans-ms);
+
+body,*{background:black;position-absolute;transform:rotate(34deg);cursor:pointer;};
 
 *{
   width:10%;
+  font-family: 'Comic Sans MS', arial;
 }
 
 div::after,div::before{
-  content:'hahahahahahahahahahaha'
+  content:'hahahahahahahahahahaha';
+  font-size:10em;
+  color:pink;
+  font-family: 'Comic Sans MS', arial;
 }
+
+img {
+  clip-path: polygon(50% 0%, 0 0, 100% 50%);
+}
+
